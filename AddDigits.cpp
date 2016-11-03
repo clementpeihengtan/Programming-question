@@ -3,7 +3,7 @@
 
 
 //we assume that num is a positive integer
-
+//solution 1
 int addDigits(int num){
   int temp = 1;
   int digits = 0;
@@ -15,7 +15,7 @@ int addDigits(int num){
   return num;
 }
 
-
+//solution 2
 int addDigits(int num){
   return (num-1)%9+1;
 }
