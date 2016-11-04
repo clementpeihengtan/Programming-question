@@ -2,6 +2,7 @@
 //example: 101 --> true
 
 bool isPalindrome(int x){
+  if(x < 0) return false;                    //it is not a palindrome if x is a negative number
   int res =0, y = x;
   while(y){
     if(abs(res) > (INT_MAX/10) return false; //if result is greater than INT_MAX/10, it will result in overflow in the next calculation
